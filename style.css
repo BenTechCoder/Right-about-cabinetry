@@ -74,9 +74,18 @@ select {
   }
 }
 
+:root {
+  --color-1: #040710;
+  --color-2: #00163D;
+  --color-3: #023064 ;
+  --color-4: #6E9BC5;
+  --color-5: #D2E3EE ;
+  --color-6: #CE6C3B;
+}
+
 @font-face {
     font-family: roboto-bold; 
-    src: "Assets\Fonts\Roboto-Bold.ttf";
+    src: "Roboto-Bold.ttf";
   }
 
 html {
@@ -86,7 +95,22 @@ html {
 }
 
 .hero-container {
+ 
+  box-shadow: 1rem 1  rem 1rem var(--color-2);
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 3vw;
+    text-decoration: underline;
+    max-width: 80rem;
+    margin: auto;
+    padding: 3rem;
+  
+}
+
+.hero {
+  background-color: var(--color-5);
+  font-size: 8vw;
+  text-align: center;
+
 }
