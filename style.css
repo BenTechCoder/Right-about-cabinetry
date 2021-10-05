@@ -21,8 +21,8 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -61,9 +61,9 @@ select {
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -76,41 +76,45 @@ select {
 
 :root {
   --color-1: #040710;
-  --color-2: #00163D;
-  --color-3: #023064 ;
-  --color-4: #6E9BC5;
-  --color-5: #D2E3EE ;
-  --color-6: #CE6C3B;
+  --color-2: #00163d;
+  --color-3: #023064;
+  --color-4: #6e9bc5;
+  --color-5: #d2e3ee;
+  --color-6: #ce6c3b;
 }
 
 @font-face {
-    font-family: roboto-bold; 
-    src: "Roboto-Bold.ttf";
-  }
+  font-family: roboto-bold;
+  src: "Roboto-Bold.ttf";
+}
 
 html {
-    font-size: 90%;
-    scroll-behavior: smooth;
-    font-family: roboto-bold, Arial, Helvetica, sans-serif;
+  font-size: 90%;
+  scroll-behavior: smooth;
+  font-family: roboto-bold, Arial, Helvetica, sans-serif;
 }
 
 .hero-container {
- 
-  box-shadow: 1rem 1  rem 1rem var(--color-2);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 3vw;
-    text-decoration: underline;
-    max-width: 80rem;
-    margin: auto;
-    padding: 3rem;
+  background-image: url("Assets/img/2370612355_6f54b216ae_o.jpg");
   
+  color: aliceblue;
+  box-shadow: 1rem 1 rem 1rem var(--color-2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  max-width: 110rem;
+  margin: 2rem;
+  padding: 3rem;
 }
 
 .hero {
-  background-color: var(--color-5);
-  font-size: 8vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 4vw;
   text-align: center;
+  padding: 1rem;
+}
 
+.hero-p {
+  font-size: 3vw;
 }
