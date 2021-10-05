@@ -89,32 +89,42 @@ select {
 }
 
 html {
-  font-size: 90%;
+  font-size: 80%;
   scroll-behavior: smooth;
   font-family: roboto-bold, Arial, Helvetica, sans-serif;
 }
 
+.nav-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("Assets/img/2370612355_6f54b216ae_o.jpg");
+  /* background-position: center; */
+  background-repeat: repeat;
+  position: relative;
+ padding: 1rem
+}
+
 .hero-container {
-  background-image: url("Assets/img/2370612355_6f54b216ae_o.jpg");
-  
   color: aliceblue;
   box-shadow: 1rem 1 rem 1rem var(--color-2);
+  font-weight: 400;
+  max-width: 120rem;
+  /* padding: 3rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-weight: 400;
-  max-width: 110rem;
-  margin: 2rem;
-  padding: 3rem;
+  justify-content: center;
+ 
 }
 
 .hero {
-  background-color: rgba(0, 0, 0, 0.4);
-  font-size: 4vw;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  font-size: 3vw;
   text-align: center;
+ 
   padding: 1rem;
 }
 
 .hero-p {
-  font-size: 3vw;
+  font-size: 2rem;
+  
 }
