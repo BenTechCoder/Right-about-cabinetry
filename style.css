@@ -435,7 +435,7 @@ and (max-device-width : 820px)
   flex-direction: column;
 }
 #email {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 }  
 
