@@ -13,40 +13,62 @@
   </head>
   <body>
     <header class="nav-hero">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="portfolio.html">Portfolio Gallery</a></li>
-          <li><a href="#contact-nav">Contact</a></li>
+      <nav class="navbar">
+        <a href="index.html" class="nav-logo">Right About</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact-nav" class="nav-link">Contact</a>
+            </li>
         </ul>
-      </nav>
-      <div class="hero-container">
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+      <!-- <nav class="nav">
+        <ul>
+          <li class="nav-links"><a href="index.html">Home</a></li>
+          <li class="nav-links"><a href="portfolio.html">Portfolio Gallery</a></li>
+          <li class="nav-links"><a href="#contact-nav">Contact</a></li>
+        </ul>
+      </nav> -->
+      <div id = "hero-id" class="hero-container">
         <header class="hero"><h1>Right about Cabinetry & Woodwork</h1>
           <p class="hero-p">Making quality Cabinets in North Carolina</p></header>
       </div>
     </header>
     <main>
-      <section class="skills">
-        <div class="skills-container">
+      <section class="skills" id="services">
+
           <!--Add ICONS LATER MAKE SURE U DO IT-->
-          <h2>What we Do:</h2>
-          <ul class="skills-ul">
-            <li>add here</li>
-            <li>add here</li>
-            <li>add here</li>
-          </ul>
+          <h2 class="h2-hero">What we Do:</h2>
+          <div class="skills-container">
+          <div class="skills-container"></div>
+          <img src="Assets/icons/cabinet.svg" alt="Cabinet" class="icon">
+          <p>Cabinetry</p>
+          <img src="Assets/icons/circular.svg" alt="Carpentry" class="icon">
+          <p>General Carpentry</p>
+          <img src="Assets/icons/graphic-design.svg" alt="Design" class="icon">
+          <p>Design + Installation</p>
         </div>
       </section>
       <section class="portfolio">
         <div class="portfolio-container">
-          <h2>See our Work:</h2>
+          <h2 class="h2-hero">See our Work:</h2>
           <!--PUT IMAGE HERE-->
           <a class="btn" href="portfolio.html">Click here</a>
         </div>
       </section>
       <section class="contact" id="contact-nav">
         <div class="contact-container">
-          <h2 class="hero">Let's start your Project:</h2>
+          <h2 class="h2-hero">Let's start your Project</h2>
           <h3>Contact us at:</h3>
           <ul class = "hero-p">
             <li><i class="fas fa-phone"></i>add here</li>
@@ -59,9 +81,10 @@
 
     <footer class="footer">
       <ul>
-        <li><a href=".hero">Home</a></li>
+        <li><a href="index.html#hero-id">Home</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
       </ul>
+      <div class="credit">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </footer>
     <script src="./js/script.js"></script>
   </body>
