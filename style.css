@@ -333,7 +333,7 @@ text-align: center;
 
 .contact ul {
   background-color: #6e9bc57a;
-  padding: 2rem;
+  padding: 0.5rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -430,6 +430,12 @@ and (max-device-width : 820px)
 .skills-container {
   display: flex;
   flex-direction: column;
+}
+.contact h2 {
+margin-left: 2rem;
+}
+.contact h3 {
+  margin-left: 1.5rem;
 }
 .contact ul {
   flex-direction: column;
