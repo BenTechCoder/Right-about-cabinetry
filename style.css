@@ -311,7 +311,7 @@ text-align: center;
 
 .btn {
   text-align: center;
-  font-weight: 400;
+  font-weight: bolder;
   font-size: 2rem;
   color: var(--color-3);
   background-color: #00163d62;
@@ -345,12 +345,13 @@ text-align: center;
 
 .contact ul li {
   margin-right: 1rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   list-style-type: none;
 }
 
 .contact h3 {
+  
   font-size: 3rem;
 }
 
@@ -434,10 +435,10 @@ and (max-device-width : 820px)
   flex-direction: column;
 }
 .contact h2 {
-margin-left: 2rem;
+margin-left: 2.4rem;
 }
 .contact h3 {
-  margin-left: 1.5rem;
+  margin-left: 2.4rem;
 }
 .contact ul {
   flex-direction: column;
