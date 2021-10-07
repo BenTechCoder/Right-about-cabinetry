@@ -204,7 +204,7 @@ background-color: var(--color-3);
   color: aliceblue;
   box-shadow: 2rem 2  rem 1rem var(--color-2);
   font-weight: 400;
-  max-width: 120rem;
+  max-width: 100rem;
   /* padding: 3rem; */
   display: flex;
   flex-direction: column;
@@ -428,7 +428,7 @@ and (max-device-width : 820px)
   font-size: 8vw;
 }
 .hero-p {
-  font-size: 5vw;
+  font-size: 6vw;
 }
 .skills-container {
   display: flex;
