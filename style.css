@@ -219,6 +219,8 @@ background-color: var(--color-3);
   text-align: center;
   text-shadow: black 0.1em 0.1em 0.2em;
   padding: 1rem;
+  transition:cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition-duration: 2s;
 }
 
 .h2-hero {
