@@ -100,14 +100,19 @@ html {
   background-color: aliceblue;
   font-size: 80%;
   scroll-behavior: smooth;
-  font-family: 'Times New Roman', Times, serif
+  font-family: 'Times New Roman', Times, serif !important;
+}
+
+a {
+  text-decoration: none;
 }
 
 .nav-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("Assets/img/2370612355_6f54b216ae_o.jpg");
   /* background-position: center; */
-  background-repeat: repeat;
+  background-repeat: no-repeat; 
+  background-size: cover;
   position: relative;
 }
 
@@ -161,6 +166,10 @@ html {
   font-size: 2.1rem;
   font-weight: bolder;
   color: var(--color-3);
+}
+
+.nav-logo:hover {
+  color: #482ff7;
 }
 
 /* 
@@ -384,6 +393,15 @@ list-style-type: none;
   font-size: small;
 }
 
+.hero-1 {
+  font-size: 3vw;
+  text-align: center;
+
+  padding: 1rem;
+
+  transition-duration: 2s;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -430,6 +448,9 @@ and (max-device-width : 820px)
 .hero-p {
   font-size: 6vw;
 }
+.hero-1 {
+  font-size: 5vw
+}
 .skills-container {
   display: flex;
   flex-direction: column;
@@ -456,6 +477,6 @@ and (max-width: 1605px)
   font-size: 4vw;
 } 
 .contact-hero {
-  font-size: 13vw;
+  font-size: 10vw;
 }
 }
