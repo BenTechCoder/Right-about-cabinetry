@@ -100,14 +100,19 @@ html {
   background-color: aliceblue;
   font-size: 80%;
   scroll-behavior: smooth;
-  font-family: 'Times New Roman', Times, serif
+  font-family: 'Times New Roman', Times, serif !important;
+}
+
+a {
+  text-decoration: none;
 }
 
 .nav-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("Assets/img/2370612355_6f54b216ae_o.jpg");
   /* background-position: center; */
-  background-repeat: repeat;
+  background-repeat: no-repeat; 
+  background-size: cover;
   position: relative;
 }
 
@@ -161,6 +166,10 @@ html {
   font-size: 2.1rem;
   font-weight: bolder;
   color: var(--color-3);
+}
+
+.nav-logo:hover {
+  color: #482ff7;
 }
 
 /* 
