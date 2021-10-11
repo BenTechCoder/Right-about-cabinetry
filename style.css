@@ -393,6 +393,15 @@ list-style-type: none;
   font-size: small;
 }
 
+.hero-1 {
+  font-size: 3vw;
+  text-align: center;
+
+  padding: 1rem;
+
+  transition-duration: 2s;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -439,6 +448,9 @@ and (max-device-width : 820px)
 .hero-p {
   font-size: 6vw;
 }
+.hero-1 {
+  font-size: 5vw
+}
 .skills-container {
   display: flex;
   flex-direction: column;
@@ -465,6 +477,6 @@ and (max-width: 1605px)
   font-size: 4vw;
 } 
 .contact-hero {
-  font-size: 13vw;
+  font-size: 10vw;
 }
 }
