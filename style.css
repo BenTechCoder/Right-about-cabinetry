@@ -103,6 +103,12 @@ html {
   font-family: 'Times New Roman', Times, serif !important;
 }
 
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 a {
   text-decoration: none;
 }
@@ -171,7 +177,25 @@ a {
 .nav-logo:hover {
   color: #482ff7;
 }
+/* .dropdown {
+  overflow: hidden;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown .dropbtn {
+ 
+} */
 /* 
 .nav {
 
@@ -233,7 +257,7 @@ background-color: var(--color-3);
 }
 
 .h2-hero {
-  font-size: 5vw;
+  font-size: 4vw;
  }
 
 .hero-p {
@@ -245,8 +269,8 @@ background-color: var(--color-3);
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 1rem;
-  padding: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 .skills h2 { 
@@ -260,12 +284,12 @@ text-align: center;
   margin: 1em;
   padding: 1rem;
   border-radius: 1rem;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   background-color: var(--color-6);
 }
 
 .icon {
-  width: 45%;
+  width: 50%;
 }
 
 /* .skills {
@@ -365,7 +389,7 @@ text-align: center;
 }
 
 .footer {
-  margin-top: 1rem;
+  margin-top: auto;
 text-align: center;
   font-size: 2rem;
   background-color: var(--color-3);
@@ -385,6 +409,13 @@ list-style-type: none;
 }
 
 .footer ul li a {
+  color: aliceblue;
+}
+
+.footer ul li a:hover {
+  background-color: var(--color-6);
+  padding: 0.3rem;
+  border-radius: 1rem;
   color: aliceblue;
 }
 
