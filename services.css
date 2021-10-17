@@ -1,0 +1,12 @@
+.services-img-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.services-img {
+   
+    width: 70%;
+}
