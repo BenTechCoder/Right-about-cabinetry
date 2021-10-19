@@ -259,6 +259,7 @@ background-color: var(--color-3);
 }
 
 .h2-hero {
+  text-align: center;
   font-size: 4vw;
  }
 
