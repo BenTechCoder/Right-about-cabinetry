@@ -397,6 +397,7 @@ text-align: center;
 }
 
 .footer {
+ 
   margin-top: auto;
 text-align: center;
   font-size: 2rem;
@@ -405,14 +406,14 @@ text-align: center;
 }
 
 .footer ul {
+  padding: 0px;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-around;
+
 }
 
 .footer ul li{
- 
 list-style-type: none;
 }
 
@@ -422,7 +423,7 @@ list-style-type: none;
 
 .footer ul li a:hover {
   background-color: var(--color-6);
-  padding: 0.3rem;
+  padding: 0.5rem;
   border-radius: 1rem;
   color: aliceblue;
 }
