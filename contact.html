@@ -70,20 +70,20 @@
  
 
 <section class="form-container">
-   <form action="" class="contact-form">
+   <form action="https://formsubmit.co/benjaminnlebron@gmail.com" method="POST"  class="contact-form">
     <div class="form-group">
         <legend>Contact Us</legend>
         <label for="form-name">Name:</label>
         <input type="text" name="Name" placeholder="Name" id="form-name" required>
-        <hr>
+     
         <label for="form-email">Email Address:</label>
-        <input type="email" name="Email" id="form-email" placeholder="email@example.com" required> 
-        <hr>
-        <label for="form-phone">(optional)Phone Number:</label>
-        <input type="text" name="phone number" id="form-phone" placeholder="Phone Number">
-        <hr>
-        <label for="form-textarea">(optional)Describe your idea</label>
-        <textarea name="textarea" id="form-textarea" cols="30" rows="10" placeholder="Answer here"></textarea>
+        <input type="email" name="email" id="form-email" placeholder="email@example.com" required> 
+   
+        <label for="form-phone">Phone Number:</label>
+        <input type="text" name="phone-number" id="form-phone" placeholder="Phone Number" required onchange="formRequired()">
+
+        <label for="form-textarea">Describe your idea</label>
+        <textarea name="message" id="form-textarea" cols="30" rows="10" placeholder="Answer here"></textarea>
         <button type="submit">Submit</button>
     
         
