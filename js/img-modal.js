@@ -1,12 +1,3 @@
-const hamBurger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-let mobileMenu = () => {
-  hamBurger.classList.toggle("active");
-  navMenu.classList.toggle("active");
-};
-
-hamBurger.addEventListener("click", mobileMenu);
-
 let modal = document.querySelector(".modal");
 let modalImg = document.querySelector(".modal-img");
 let img = document.querySelector(".services-img");
