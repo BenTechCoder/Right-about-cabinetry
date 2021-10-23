@@ -240,7 +240,7 @@ background-color: var(--color-3);
   color: aliceblue;
   box-shadow: 2rem 2  rem 1rem var(--color-2);
   font-weight: 400;
-  max-width: 100rem;
+  max-width: 150rem;
   /* padding: 3rem; */
   display: flex;
   flex-direction: column;
