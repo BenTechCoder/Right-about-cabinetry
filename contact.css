@@ -90,6 +90,13 @@ select {
   --color-6: #ce6c3b;
 }
 
+.form-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 4vw;
+}
+
 .form-container {
   
     font-size: 2rem;
@@ -115,5 +122,33 @@ select {
     width: 90%;
     display: flex;
     flex-direction: column;
+  
     
+}
+
+.form-btn {
+margin: 0 auto;
+  text-align: center;
+width: 50%;
+background-color: var(--color-5);
+}
+
+.form-btn:hover {
+  color: aliceblue;
+  background-color: var(--color-6);
+  animation-name: form-btn-hover;
+  animation-duration: 4s;
+
+}
+
+@keyframes form-btn-hover {
+
+50% {
+  width: 40%;
+}
+
+100% {
+  width: 100%;
+}
+
 }
