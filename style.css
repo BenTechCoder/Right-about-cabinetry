@@ -236,6 +236,7 @@ background-color: var(--color-3);
 } */
 
 .hero-container {
+  text-align: center;
   color: aliceblue;
   box-shadow: 2rem 2  rem 1rem var(--color-2);
   font-weight: 400;
@@ -251,7 +252,6 @@ background-color: var(--color-3);
 .hero {
   /* background-color: rgba(0, 0, 0, 0.4); */
   font-size: 3vw;
-  text-align: center;
   text-shadow: black 0.1em 0.1em 0.2em;
   padding: 1rem;
   transition:cubic-bezier(0.68, -0.55, 0.265, 1.55);
