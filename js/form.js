@@ -24,6 +24,7 @@ let borderValidation = (id) => {
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
+  formRequired();
   borderValidation(email);
   borderValidation(phone);
   borderValidation(formName);
