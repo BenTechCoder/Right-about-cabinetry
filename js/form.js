@@ -28,4 +28,5 @@ form.addEventListener("submit", (e) => {
   borderValidation(email);
   borderValidation(phone);
   borderValidation(formName);
+  form.submit()
 });
