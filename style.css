@@ -477,7 +477,7 @@ list-style-type: none;
 
 
 @media only screen     
-and (max-device-width : 820px)  
+and (max-device-width : 1137px)  
 { 
 .hero {
   font-size: 5vw;
