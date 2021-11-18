@@ -7,6 +7,7 @@ Array.from(document.querySelectorAll(".services-img")).forEach((item) => {
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
+   console.log(captionText)
   };
 });
 
