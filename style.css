@@ -272,9 +272,12 @@ background-color: var(--color-3);
 }
 
 .skills-container {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
   margin: 0.5rem;
   padding: 0.5rem;
 }
@@ -299,7 +302,8 @@ text-align: center;
 }
 
 .icon {
-  width: 50%;
+  max-width: 200px;
+  width: 100%;
 }
 
 /* .skills {
@@ -488,7 +492,7 @@ list-style-type: none;
 
 
 @media only screen     
-and (max-device-width : 1137px)  
+and (max-width: 1137px)  
 { 
 .hero {
   font-size: 5vw;
@@ -528,6 +532,6 @@ and (max-width: 1605px)
   font-size: 4vw;
 } 
 .contact-hero {
-  font-size: 10vw;
+  font-size: 6vw;
 }
 }
