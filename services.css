@@ -10,21 +10,31 @@
 .services-img-container{
   margin: 0 auto;
 display: grid;
-display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-gap: 2px;
 max-width: 800px;
 }
 
+.portfolio-img-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+  grid-gap: 5px;
+  grid-auto-flow: dense;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .services-img {
-    width:100%;
-    max-width:400px;
+  width: 100%;
+    max-width:700px;
     border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .services-img:hover {opacity: 0.7;}
+
 
 /* Style the Image Used to Trigger the Modal */
 .modal-img {
@@ -36,6 +46,7 @@ max-width: 800px;
   
   /* The Modal (background) */
   .modal {
+ 
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -51,26 +62,26 @@ max-width: 800px;
   
   /* Modal Content (Image) */
   .modal-content {
-    margin: auto;
+    margin: 0 auto;
     display: block;
-    width: 80%;
+    width: 70%;
     max-width: 700px;
   }
   
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
-  #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
+  .caption {
+    margin: 0 auto;
+    width: 70%;
     max-width: 700px;
     text-align: center;
     color: #ccc;
-    padding: 10px 0;
-    height: 150px;
+    /* padding: 0.5rem; */
+    font-size: 2rem;
+  
   }
   
   /* Add Animation - Zoom in the Modal */
-  .modal-content, #caption {
+  .modal-content, .caption {
     animation-name: zoom;
     animation-duration: 0.6s;
   }
@@ -100,7 +111,12 @@ max-width: 800px;
   
   /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 700px){
+    .modal {
+      align-items: center;
+    }
+
     .modal-content {
+    
       width: 100%;
     }
   }

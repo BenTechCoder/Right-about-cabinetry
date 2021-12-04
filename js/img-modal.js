@@ -4,9 +4,10 @@ let img = document.querySelector(".services-img");
 let captionText = document.querySelector(".caption");
 Array.from(document.querySelectorAll(".services-img")).forEach((item) => {
   item.onclick = function () {
-    modal.style.display = "block";
+    modal.style.display = "grid";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
+   console.log(captionText)
   };
 });
 

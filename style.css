@@ -23,8 +23,8 @@ dd {
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role="list"],
-ol[role="list"] {
- 
+ol[role="list"], ul {
+ padding-inline-start: 0;
   list-style: none;
 }
 
@@ -243,12 +243,13 @@ background-color: var(--color-3);
   color: aliceblue;
   box-shadow: 2rem 2  rem 1rem var(--color-2);
   font-weight: 400;
-  max-width: 150rem;
+  max-width: 3000px;
   /* padding: 3rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1rem;
  
 }
 
@@ -272,11 +273,12 @@ background-color: var(--color-3);
 }
 
 .skills-container {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0.5rem;
-  padding: 0.5rem;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .skills h2 { 
@@ -299,7 +301,8 @@ text-align: center;
 }
 
 .icon {
-  width: 50%;
+  max-width: 200px;
+  width: 100%;
 }
 
 /* .skills {
@@ -337,31 +340,30 @@ text-align: center;
 } */
 
 .portfolio{
- 
-  border:  #02306425;
-  border-style: solid;
-    margin: 2rem;
-    padding: 1rem;
-  font-size: 2rem;
-}
 
-.portfolio-container {
+  margin: 1rem auto;
+  padding: 0.4rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  
+ width: 90%;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
 }
 
+
+
 .btn {
+  justify-self: center;
   text-align: center;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--color-3);
   background-color: #00163d62;
-  width: 20rem;
- margin: 2rem auto;
- padding: 1rem;
- border-radius: 4rem;
+
+ padding: 2rem;
+ border-radius: 1rem;
 }
 
 .btn:hover {
@@ -488,7 +490,7 @@ list-style-type: none;
 
 
 @media only screen     
-and (max-device-width : 1137px)  
+and (max-width: 1137px)  
 { 
 .hero {
   font-size: 5vw;
@@ -519,15 +521,3 @@ margin-left: 2.4rem;
   font-size: 2rem;
 }
 }  
-
-@media only screen   
-and (min-width: 1370px)  
-and (max-width: 1605px)  
-{
-.hero-p {
-  font-size: 4vw;
-} 
-.contact-hero {
-  font-size: 10vw;
-}
-}
